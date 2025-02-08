@@ -1,0 +1,96 @@
+.container{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 10px solid rgb(37, 35,35);
+
+}
+.container2{
+    height: 50px;
+    background-color: rgb(37, 35, 35);
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.img{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 5px;
+}
+
+
+
+.search{
+    height: 30PX;
+    width: 150px;
+    border:1px solid rgb(138, 128, 128);
+    border-radius: 50px;
+    font-style: italic;
+    font-size: small;
+}
+.sric{
+    position: absolute;
+    right: 10px;
+}
+
+
+.search1{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+
+}
+.button1{
+    width: 100px;
+    height: 40px;
+
+    background-color: rgb(17, 138, 33);
+    color: aliceblue;
+    border-radius: 50px;
+    border-color:transparent;
+    left:40px;
+    position: relative;
+    z-index: 2;
+    border: solid;
+
+
+   
+    
+    
+}
+.button2{
+    width: 115px;
+    height: 40px;
+    border: solid;
+
+    background-color: rgb(212, 227, 231);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border-color: transparent;
+    position: relative;
+}
+.button{
+    position: relative;
+    z-index: 1;
+    font-size: larger;padding-left: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+ .i{
+    color: blueviolet;
+ }
